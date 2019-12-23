@@ -1,0 +1,40 @@
+{
+  "name": "eslint-plugin-ts-wasmify",
+  "version": "0.0.1",
+  "description": "Eslint plugin for ts wasmify compiler",
+  "main": "lib/index.js",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "build": "tsc -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaroslawPokropinski/eslint-plugin-ts-wasmify.git"
+  },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "compiler",
+    "webassembly",
+    "eslintplugin",
+    "eslint-plugin",
+    "wasm"
+  ],
+  "author": "JaroslawPokropinski",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JaroslawPokropinski/eslint-plugin-ts-wasmify/issues"
+  },
+  "homepage": "https://github.com/JaroslawPokropinski/eslint-plugin-ts-wasmify#readme",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
